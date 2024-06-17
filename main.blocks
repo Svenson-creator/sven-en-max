@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="]U^.j5n`}x0dkH*cr]b5">sprite</variable><variable id="#`dfEHc0bUA~d9;lh+D8">Pizza</variable><variable id="L_H@el`x3.s^goNFF_tg">rockimage</variable><variable id="WKCj9Yc;lJC6/k~~y[q`">paperimage</variable><variable id="DeiysBm)US|E,(UC!-C{">scissorsimage</variable><variable id="u=T!::f?%XwDe#QHu:u*">myhand</variable></variables><block type="device_gesture_event" id="F.FDJ7J6Ey?o-^VgR-@x" x="-226" y="-177"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="YH9YBj.2HGq*Lyw.gC[}"><field name="VAR" id="u=T!::f?%XwDe#QHu:u*">myhand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="q*`4M{oo`Tn|4huSpkRB"><value name="min"><shadow type="math_number" id="tb8|lH~nrl(laifr!pFi"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="Vh8`tr?W7|uMz-[lP@y2"><field name="NUM">3</field></shadow></value></block></value><next><block type="device_show_number" id="ZF)*Wx5}TF`TbF9Z*%Gk"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="EdIu)CHm/x#(#EPDkfY5"><field name="VAR" id="u=T!::f?%XwDe#QHu:u*">myhand</field></block></value></block></next></block></statement></block><block type="pxt-on-start" id="pzzP;/p}r_tyV!liZn66" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="`L,wsM3?cT*M5Og/@Og4"><field name="VAR" id="L_H@el`x3.s^goNFF_tg">rockimage</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id=".jw+cp]XYL{X?78UefED"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # # # # # 
+        # # # # # 
+        . . . . .
+        `</field></block></value><next><block type="variables_set" id="?I0lEzRmk~baC5#I*I0s"><field name="VAR" id="WKCj9Yc;lJC6/k~~y[q`">paperimage</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="2bk0IpEVO8/Ql1H/p1$l"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></value><next><block type="variables_set" id="IJmIhU[xaFs@06}+T+eV"><field name="VAR" id="DeiysBm)US|E,(UC!-C{">scissorsimage</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_build_image" id="=P0dvN5t|SM5d#/IG@,n"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></value></block></next></block></next></block></statement></block><block type="controls_if" id="Pl3^Q`qJ-?HeZ/}M8](-" disabled="true" x="637" y="202"><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7L.SLIBJ4`a-+B%3M@7B" disabled="true"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="[[@KHO4nyoc1hlL2AJ+L" disabled="true"><field name="VAR" id="u=T!::f?%XwDe#QHu:u*">myhand</field></block></value><value name="B"><shadow type="math_number" id="W.%YsvF.=BhRUgAC{HTf" disabled="true"><field name="NUM">1</field></shadow></value></block></value></block></xml>
