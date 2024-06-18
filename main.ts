@@ -1,26 +1,5 @@
-input.onGesture(Gesture.Shake, function () {
-    myhand = randint(1, 3)
-    basic.showNumber(myhand)
+basic.forever(function () {
+    let sprite: game.LedSprite = null
+    sprite.move(1)
+    basic.showIcon(IconNames.Heart)
 })
-let myhand = 0
-let rockimage = images.createImage(`
-    . . . . .
-    . # # # .
-    # # # # #
-    # # # # #
-    . . . . .
-    `)
-let paperimage = images.createImage(`
-    # # # # #
-    # . . . #
-    # . . . #
-    # . . . #
-    # # # # #
-    `)
-let scissorsimage = images.createImage(`
-    # # . . #
-    # # . # .
-    . . # . .
-    # # . # .
-    # # . . #
-    `)
